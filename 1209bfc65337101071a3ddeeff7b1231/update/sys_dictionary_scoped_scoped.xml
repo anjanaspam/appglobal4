@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="scoped" table="scoped">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Scoped</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>scoped</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>scoped</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 16:31:37</sys_created_on>
+        <sys_id>966bb74a5337101071a3ddeeff7b1228</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Scoped</sys_name>
+        <sys_package display_value="appglobal3" source="eef87fc65337101071a3ddeeff7b12e2">eef87fc65337101071a3ddeeff7b12e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="appglobal4">1209bfc65337101071a3ddeeff7b1231</sys_scope>
+        <sys_update_name>sys_dictionary_scoped_scoped</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 16:33:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="appglobal4">1209bfc65337101071a3ddeeff7b1231</claim_owner_scope>
+        <claim_timestamp>17522cf60fb0000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_scoped_scoped</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>appglobal4</previous_claim_name>
+        <previous_claim_scope>1209bfc65337101071a3ddeeff7b1231</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 16:33:37</sys_created_on>
+        <sys_id>27eb3f4a5337101071a3ddeeff7b1227</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 16:33:37</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="appglobal4">1209bfc65337101071a3ddeeff7b1231</claim_owner_scope>
+        <claim_timestamp>17522cf60f90000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_scoped_scoped</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>appglobal3</previous_claim_name>
+        <previous_claim_scope>eef87fc65337101071a3ddeeff7b12e2</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 16:33:37</sys_created_on>
+        <sys_id>e7eb3f4a5337101071a3ddeeff7b1227</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 16:33:37</sys_updated_on>
+    </sys_claim>
+</record_update>
